@@ -191,6 +191,10 @@ nav button{
 }
 
 
+#open-menu-btn, #close-menu-btn {
+    border: none;
+}
+
 
 .banner{
     width: 100vw;
@@ -583,6 +587,19 @@ footer ul li a:hover{
         right: 3%;
     }
 
+    nav{
+    
+        background: transparent;
+    }
+
+    .container .badge{
+        position: relative;
+        width: 120px;
+        height: 80px;
+        background: transparent;
+        border: 2px solid #fff;
+    }
+
     /*==== header =====*/
     header{
         height: 100vh;
@@ -671,6 +688,13 @@ footer ul li a:hover{
 }
 
 @media (max-width: 285px) {
+
+    
+    nav{
+    
+        background: transparent;
+    }
+
     .banner video{
         position: absolute;
         top: 0;
